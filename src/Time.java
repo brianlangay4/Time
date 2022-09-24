@@ -18,13 +18,13 @@ down here is the few example that we can use
     }
 
     public  void currentDate() {
-        //here we get the date for mont we use MM because mm is minutes more info about the format check the link provided
+        //here we get the date for month we use MM because mm is minutes more info about the format check the link provided
         Date satDate = new Date();
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyy");
-        /*String date is key value here as will store the output you need instead of doing it like this
+        /*String date is key value here we can use it to store the output you need instead of doing it like this
          System.out.println(dateFormat.format(satDate));
          */
-        //do this
+        //do this instead 
         String date = dateFormat.format(satDate);
         System.out.println(date);
         //now you can use this string over and over to get the result
